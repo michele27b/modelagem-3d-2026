@@ -7,9 +7,32 @@
   <body style="margin: 0px; overflow: hidden">
     <a-scene vr-mode-ui="enabled: false" embedded arjs="debugUIEnabled: false">
          <a-marker preset="hiro">
+           <a-image
+             src="park.bogum"
+             position="0 0.5 0"
+             rotation="90 0 0"
+             width="1"
+             height="1.5"
+             ></a-image>
+         </a-marker>
+      <a-entity camera></a-entity>
+    </a-scene>
+  </body>
+</html>
+
+
+<!-- <html>
+  <head>
+    <title>Experiência de RA usando AR.js e A-frame com modelo 3d simples e marcador hiro</title>
+    <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+    <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
+  </head>
+  <body style="margin: 0px; overflow: hidden">
+    <a-scene vr-mode-ui="enabled: false" embedded arjs="debugUIEnabled: false">
+         <a-marker preset="hiro">
         <a-box position="0 0.5 0" material="color: red"></a-box>
       </a-marker>
       <a-entity camera></a-entity>
     </a-scene>
   </body>
-</html>
+</html> -->
